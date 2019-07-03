@@ -1,0 +1,96 @@
+header{
+  overflow: hidden;
+  color: #571b00;
+  margin-bottom: 30px;
+}
+header a{
+  text-decoration: none;
+  color: #3a1b00;
+}
+header a:hover{
+  color: #ae9082;
+}
+header p{
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+  font-size: 25px;
+  color: #3a1b00;
+}
+
+.header-left-box{
+  float: left;
+  margin-left: 5%;
+  width: 178px;
+}
+
+.header-logo-box{
+  width: 200px;
+}
+#title-motto{
+  font-size: 70%!important;
+}
+.header-left-top span{
+  letter-spacing: 2px;
+}
+
+
+#header-right-box{
+  text-align: right;
+  width: 59%;
+  font-size: 68%;
+}
+#header-right-box i{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.header-contact{
+  margin-right: 50px;
+}
+#header-right-box a{
+  margin-right: 20px;
+}
+.fa-bars{
+  cursor: pointer;
+}
+
+.topHeader{
+  overflow: hidden;
+}
+
+
+.header-menu-box{
+  height: 100%;
+  background: black;
+  overflow: hidden;
+}
+.header-menu-box ul li{
+  list-style: none;
+  font-size: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.header-menu-box ul li a{
+  color: snow;
+}
+.header-menu-box li:hover{
+  color: white;
+}
+.close-btn{
+  float: right;
+  font-size: 28px;
+  margin: 10px;
+  color: snow;
+  cursor: pointer;
+}
+.header-menu-box{
+  width: 0px;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.header-menu-box ul li{
+  color: blue;
+}
