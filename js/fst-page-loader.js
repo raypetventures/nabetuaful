@@ -5,7 +5,7 @@ function loaderPage(){
   $(".fst-loader").hide();
   $("header, #image-box, #professional-website, .nb-footer").fadeIn(3000);
 }
-setTimeout(loaderPage, 1000);
+setTimeout(loaderPage, 4000);
 
   // FIRST PAGE LOADER : TXT animation
   setInterval(function() {
